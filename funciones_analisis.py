@@ -1,13 +1,6 @@
-# =========================================
-# ARCHIVO: funciones_analisis.py
-# =========================================
 
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# -----------------------------------------
-# FUNCION PARA CARGAR DATOS
-# -----------------------------------------
 
 def cargar_datos(ruta):
 
@@ -15,9 +8,6 @@ def cargar_datos(ruta):
 
     return df
 
-# -----------------------------------------
-# FUNCION PARA CALCULAR PROMEDIOS
-# -----------------------------------------
 
 def calcular_promedios(df):
 
@@ -30,9 +20,7 @@ def calcular_promedios(df):
 
     return resumen
 
-# -----------------------------------------
-# FUNCION PARA GRAFICO DBO
-# -----------------------------------------
+
 
 def grafico_dbo(resumen):
 
